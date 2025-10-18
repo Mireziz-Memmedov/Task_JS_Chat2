@@ -1,0 +1,143 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 50px 0;
+}
+
+#todo .box {
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #a7501b;
+  margin-bottom: 35px;
+}
+#todo .box .textbox h1 {
+  margin: 20px 0;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+}
+#todo .box .add input {
+  border-radius: 15px;
+  margin: 0 20px;
+  padding: 10px;
+}
+#todo .box .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 25px;
+  margin: 20px 0;
+  padding: 4px 20px;
+}
+#todo .box .btn h3:hover {
+  cursor: pointer;
+}
+#todo .minibox h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  min-height: 40px;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  margin: 5px 0;
+  word-break: break-word;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+#message .chat {
+  border-radius: 15px;
+  background-color: #e8edff;
+  max-width: 550px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#message .chat .minibox {
+  overflow: auto;
+  border-radius: 15px;
+  width: 500px;
+  max-width: 500px;
+  height: 300px;
+  background-color: #ffffff;
+  margin: 20px 0;
+  padding: 10px;
+}
+#message .chat .minibox h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  background-color: #94a6e6;
+  border-radius: 25px;
+  margin: 5px 0;
+  word-break: break-word;
+  padding: 5px 10px;
+  color: #ffffff;
+}
+#message .chat .minibox .right {
+  align-self: flex-end;
+}
+#message .chat .minibox .left {
+  align-self: flex-start;
+}
+#message .chat #me {
+  display: flex;
+  flex-direction: column;
+}
+#message .chat #you {
+  display: flex;
+  flex-direction: column;
+}
+#message .chat .text {
+  display: flex;
+  margin-bottom: 25px;
+}
+#message .chat .text input {
+  border-radius: 25px;
+  margin: 0 10px;
+  padding: 7px 13px;
+}
+#message .chat .text .sent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #94a6e6;
+  border-radius: 25px;
+  padding: 0 25px;
+}
+#message .chat .text .sent:hover {
+  cursor: pointer;
+}
+#message .chat .text .sent h3 {
+  color: #ffffff;
+}
+#message .chat .text .sent h3:hover {
+  cursor: pointer;
+}
+@media (min-width: 200px) and (max-width: 1200px) {
+  #message .chat .minibox {
+    width: 90%;
+  }
+}
+@media (min-width: 200px) and (max-width: 992px) {
+  #message .chat {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
