@@ -11,12 +11,12 @@ $(document).ready(function () {
                 $(newh2).append(val)
                 $(div).append(newh2)
                 return div
-            }
+            } 
             else {
                 return
             }
         }
-        $('#you').append(a('class="right"'))
+        $('#you').append(a('class="left"'))
         $('#me').append(a('class="right"'))
         $('#inputme').val('');
 
@@ -39,7 +39,7 @@ $(document).ready(function () {
                 return
             }
         }
-        $('#you').append(a('class="left"'))
+        $('#you').append(a('class="right"'))
         $('#me').append(a('class="left"'))
         $('#inputyou').val('');
 
