@@ -38,9 +38,7 @@ section {
   display: none;
 }
 #message .chat .minibox h2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   max-width: 300px;
   background-color: #94a6e6;
   border-radius: 25px;
@@ -51,9 +49,6 @@ section {
 }
 #message .chat .minibox .right {
   align-self: flex-end;
-}
-#message .chat .minibox .left {
-  align-self: flex-start;
 }
 #message .chat #me {
   display: flex;

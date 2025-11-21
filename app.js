@@ -16,7 +16,7 @@ $(document).ready(function () {
                 return
             }
         }
-        $('#you').append(a('class="left"'))
+        $('#you').append(a())
         $('#me').append(a('class="right"'))
         $('#inputme').val('');
 
@@ -40,7 +40,7 @@ $(document).ready(function () {
             }
         }
         $('#you').append(a('class="right"'))
-        $('#me').append(a('class="left"'))
+        $('#me').append(a())
         $('#inputyou').val('');
 
         document.querySelector('#you').scrollTo(0, document.querySelector('#you').scrollHeight)
